@@ -1,5 +1,5 @@
 {
-    "background_color": "none",
+    "background_color": "white",
     "description": "",
     "dir": "ltr",
     "display": "standalone",
@@ -8,7 +8,7 @@
     "scope": "/",
     "short_name": "Feedback Loop",
     "start_url": "/",
-    "theme_color": "none",
+    "theme_color": "light",
     "categories": [],
     "screenshots": [],
     "icons": [
