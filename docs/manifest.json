@@ -1,5 +1,5 @@
 {
-    "background_color": "none",
+    "background_color": "white",
     "description": "",
     "dir": "ltr",
     "display": "standalone",
@@ -8,7 +8,7 @@
     "scope": "/",
     "short_name": "Feedback Loop",
     "start_url": "/",
-    "theme_color": "none",
+    "theme_color": "light",
     "categories": [],
     "screenshots": [],
     "icons": [
@@ -16,7 +16,27 @@
         "src": "favicon.ico",
         "type": "image/png",
         "sizes": "28x30"
-      }
+      },
+      {
+        "src": "avatar.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    },
+    {
+        "src": "avatar.png",
+        "sizes": "256x256",
+        "type": "image/png"
+    },
+    {
+        "src": "avatar.png",
+        "sizes": "384x384",
+        "type": "image/png"
+    },
+    {
+        "src": "avatar.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
     ],
     "shortcuts": []
   }
