@@ -1,6 +1,6 @@
 [{
     "relation": ["delegate_permission/common.handle_all_urls"],
-    "target" : { "namespace": "android_app", "package_name": "io.github.project_feedback_loop.twa",
+    "target" : { "namespace": "android_app", "package_name": "org.chromium.twa.svgomg",
                  "sha256_cert_fingerprints": ["46:C6:A0:AC:4A:A7:95:7F:AD:27:9B:05:36:BE:8D:3F:77:8D:85:D7:9E:86:06:3E:B3:65:2C:D5:4C:02:32:32"] }
   }
 ]
