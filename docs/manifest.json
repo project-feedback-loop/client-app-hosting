@@ -1,0 +1,41 @@
+{
+    "background_color": "white",
+    "description": "",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "Feedback Loop",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "Feedback Loop",
+    "start_url": "/",
+    "categories": [],
+    "screenshots": [],
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "type": "image/png",
+        "sizes": "28x30"
+      },
+      {
+        "src": "loop-96.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    },
+    {
+        "src": "loop-96.png",
+        "sizes": "256x256",
+        "type": "image/png"
+    },
+    {
+        "src": "loop-96.png",
+        "sizes": "384x384",
+        "type": "image/png"
+    },
+    {
+        "src": "loop-96.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+    ],
+    "shortcuts": []
+  }
