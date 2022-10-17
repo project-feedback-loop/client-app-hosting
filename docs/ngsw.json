@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1665997268248,
+  "timestamp": 1666001566277,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -54,7 +54,25 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "entities",
+      "patterns": [
+        "\\/api\\/requests",
+        "\\/api\\/users",
+        "\\/api\\/tasks",
+        "\\/api\\/milestone",
+        "\\/api\\/auth"
+      ],
+      "strategy": "freshness",
+      "maxSize": 15,
+      "maxAge": 10800000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/262.8dca760c49a07c23.js": "86479c72f21c3f4c3141523f6d4c0024c30230f0",
     "/268.03e3014f8221aa6d.js": "1709d2e592eb8c9fd28ec43f8c2ddea927af5663",
