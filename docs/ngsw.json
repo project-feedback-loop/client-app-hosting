@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1666160346714,
+  "timestamp": 1666161634828,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -55,11 +55,7 @@
     {
       "name": "entities",
       "patterns": [
-        "\\/api\\/requests[^/]*",
-        "\\/api\\/users[^/]*",
-        "\\/api\\/tasks[^/]*",
-        "\\/api\\/milestone[^/]*",
-        "\\/api\\/auth[^/]*"
+        "\\/api\\/.*"
       ],
       "strategy": "freshness",
       "maxSize": 15,
